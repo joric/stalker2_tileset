@@ -38,7 +38,7 @@ def process_chunk(im, start_x, start_y, tw, th, imname):
 
             #print(image_bytes[:8].hex())
 
-            img.save(fname, quality=69) # should be about 760M overall
+            img.save(fname, quality=70, subsampling=0, optimize=True) # should be about 760M overall
 
             #break
 
