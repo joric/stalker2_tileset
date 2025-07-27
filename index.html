@@ -32,6 +32,7 @@ window.onload = function() {
   let baseLayers = {
     'PDA': L.tileLayer('tiles/{z}/{x}/{y}.jpg', { tileSize: 512, maxNativeZoom: 7, bounds: bounds, }),
     'World Base': L.tileLayer('extras/wb/{z}/{x}/{y}.jpg', { tileSize: 512, maxNativeZoom: 5, bounds: bounds }),
+    'World Legend': L.tileLayer('extras/wl/{z}/{x}/{y}.jpg', { tileSize: 512, maxNativeZoom: 4, bounds: bounds }),
     'LD Scheme': L.tileLayer('extras/ld/{z}/{x}/{y}.png', { tileSize: 512, maxNativeZoom: 3, bounds: bounds }),
   }
 
