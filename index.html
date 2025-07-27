@@ -31,8 +31,8 @@ window.onload = function() {
 
   let baseLayers = {
     'T_WorldMap_UDIM (64k, 1.5)': L.tileLayer('tiles/{z}/{x}/{y}.jpg', { tileSize: 512, maxNativeZoom: 7, bounds: bounds, }),
+    'T_GLOBAL_MAP_LEGEND (8k, 1.3)': L.tileLayer('extras/wl/{z}/{x}/{y}.png', { tileSize: 512, maxNativeZoom: 4, bounds: bounds }),
     'T_GLOBAL_MAP_BASE (16k, 1.0)': L.tileLayer('extras/wb/{z}/{x}/{y}.jpg', { tileSize: 512, maxNativeZoom: 5, bounds: bounds }),
-    'T_GLOBAL_MAP_LEGEND (8k, 1.5)': L.tileLayer('extras/wl/{z}/{x}/{y}.jpg', { tileSize: 512, maxNativeZoom: 4, bounds: bounds }),
     'T_WorldMap_LDScheme (4k, 1.0)': L.tileLayer('extras/ld/{z}/{x}/{y}.png', { tileSize: 512, maxNativeZoom: 3, bounds: bounds }),
   }
 
