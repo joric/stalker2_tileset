@@ -1,6 +1,6 @@
 set path=D:\Shared\Tools\Hacking\Games\UE\ZenTools;%path%
 
-set gamedir=E:\Games\S.T.A.L.K.E.R. 2.Heart.of.Chornobyl.Ultimate.Editon-InsaneRamZes
+set gamedir=E:\Games\S.T.A.L.K.E.R. 2.Heart.of.Chornobyl.Ultimate.Editon
 set indir=C:\Temp\Exports\Indir
 set outdir=C:\Temp\Exports\Outdir
 mkdir %indir%
